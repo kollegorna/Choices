@@ -352,7 +352,7 @@ class Choices {
         if (this.isSelectOneElement) {
           return choice.groupId === group.id;
         }
-        return choice.groupId === group.id && !choice.selected;
+        return choice.groupId === group.id && (this.config.renderSelectedChoices === 'always' || !choice.selected);
       });
 
       if (groupChoices.length >= 1) {
