@@ -32,4 +32,4 @@ jobs:
           npm config set scope "@kollegorna"
           npm publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{secrets.GPR_AUTH_TOKEN}}
+          GPR_AUTH_TOKEN: ${{secrets.GPR_AUTH_TOKEN}}
