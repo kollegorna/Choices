@@ -23,7 +23,7 @@ jobs:
         run: yarn install
 
       - name: Run tests
-        run: npm run tests
+        run: npm run test
 
       - name: Publish the package to GPR
         run: |
