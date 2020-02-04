@@ -1,5 +1,5 @@
 {
-  "name": "choices.js",
+  "name": "@kollegorna/choices",
   "version": "3.0.5",
   "description": "A vanilla JS customisable text input/select box plugin",
   "main": "./assets/scripts/dist/choices.min.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jshjohnson/Choices.git"
+    "url": "git+https://github.com/kollegorna/Choices.git"
   },
   "author": "Josh Johnson",
   "license": "MIT",
